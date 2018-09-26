@@ -1,0 +1,36 @@
+{
+  "name": "nest-tinyUrl",
+  "version": "0.0.1",
+  "description": "a tinyUrl module for nestjs",
+  "author": "liujia",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && cp *.md dist && cp LICENSE dist && cp package.json dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marsprince/nest-tinyUrl"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^5.3.9",
+    "@nestjs/core": "^5.3.10",
+    "@nestjs/typeorm": "^5.2.2",
+    "typeorm": "^0.2.7"
+  },
+  "dependencies": {
+    "base-x": "^3.0.4"
+  }
+}
