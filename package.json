@@ -1,6 +1,6 @@
 {
   "name": "nest-tinyurl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a tinyUrl module for nestjs",
   "author": "liujia",
   "license": "MIT",
